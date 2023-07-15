@@ -48,7 +48,8 @@ header {
     margin: 4em 0 7em;
 }
 
-.header-section, .footer-section {
+.header-section,
+.footer-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +81,9 @@ header {
     justify-content: space-between;
 }
 
-.design-1, .design-2, .design-3 {
+.design-1,
+.design-2,
+.design-3 {
     margin-bottom: 1.5em;
 }
 
@@ -100,23 +103,32 @@ header {
     font-size: 1.5rem;
 }
 
-.design-2, .design-3 {
+.design-2,
+.design-3 {
     display: flex;
     flex-direction: column;
 }
 
-.design-2-set-1, .design-3-set-1 {
+.design-2-set-1,
+.design-3-set-1 {
     display: flex;
     margin-bottom: 1.5em;
 }
 
-.set-1-design-1, .set-1-design-2, .design-2-set-2-design, .set-1-design-3, .set-2-design-3 {
+.set-1-design-1,
+.set-1-design-2,
+.design-2-set-2-design,
+.set-1-design-3,
+.set-2-design-3 {
     padding: 1.2em;
     border-radius: 0.6em;
 }
 
-.set-1-design-1 .design-img, .set-1-design-2 .design-img, .design-2-set-2-design .design-img, 
-.set-1-design-3 .design-img, .set-2-design-3 .design-img {
+.set-1-design-1 .design-img,
+.set-1-design-2 .design-img,
+.design-2-set-2-design .design-img,
+.set-1-design-3 .design-img,
+.set-2-design-3 .design-img {
     margin-bottom: 3em;
 }
 
@@ -133,7 +145,8 @@ header {
     background-color: #EB7565;
 }
 
-.design-2-set-2-design .design-img, .design-3-set-2 .design-img {
+.design-2-set-2-design .design-img,
+.design-3-set-2 .design-img {
     display: flex;
     justify-content: space-around;
 }
@@ -206,7 +219,7 @@ header {
     font-weight: bold;
 }
 
-.book-body {
+.booking-body {
     display: flex;
     justify-content: space-between;
 }
