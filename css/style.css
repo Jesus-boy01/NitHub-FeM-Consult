@@ -1,0 +1,230 @@
+/* setup */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-color: #FFF7F0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.free-dark {
+    text-decoration: none;
+    color: #FFF7F0;
+    background-color: #030303;
+    padding: 0.8em 1.5em;
+    border-radius: 1.5em;
+    font-weight: bold;
+}
+
+.free-dark:hover {
+    background-color: #755CDE;
+}
+
+.free-light {
+    text-decoration: none;
+    color: #FFF7F0;
+    background-color: #EB7565;
+    padding: 0.8em 1.5em;
+    border-radius: 1.5em;
+    font-weight: bold;
+}
+
+.free-light:hover {
+    background-color: #F6A560;
+}
+
+/* header section */
+
+header {
+    margin: 4em 0 7em;
+}
+
+.header-section, .footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* designs section */
+
+.design-text {
+    text-align: center;
+}
+
+.design-title {
+    margin-bottom: 2em;
+}
+
+.design-title h1 {
+    font-size: 3.5rem;
+}
+
+.design-paragraph p {
+    color: #7A746E;
+    font-size: 1.2rem;
+}
+
+.designs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    justify-content: space-between;
+}
+
+.design-1, .design-2, .design-3 {
+    margin-bottom: 1.5em;
+}
+
+.design-1 {
+    background-color: #755CDE;
+    padding: 1.2em 1.5em;
+    border-radius: 0.6em;
+}
+
+.design-img {
+    margin-bottom: 7.5em;
+}
+
+.design-card-title p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.design-2, .design-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.design-2-set-1, .design-3-set-1 {
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.set-1-design-1, .set-1-design-2, .design-2-set-2-design, .set-1-design-3, .set-2-design-3 {
+    padding: 1.2em;
+    border-radius: 0.6em;
+}
+
+.set-1-design-1 .design-img, .set-1-design-2 .design-img, .design-2-set-2-design .design-img, 
+.set-1-design-3 .design-img, .set-2-design-3 .design-img {
+    margin-bottom: 3em;
+}
+
+.set-1-design-1 {
+    background-color: #F6A560;
+    margin-right: 1.5em;
+}
+
+.set-1-design-2 {
+    background-color: #F39E9E;
+}
+
+.design-2-set-2-design {
+    background-color: #EB7565;
+}
+
+.design-2-set-2-design .design-img, .design-3-set-2 .design-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.set-1-design-3 {
+    background-color: #61C4B7;
+}
+
+.set-2-design-3 {
+    background-color: #552049;
+}
+
+/* about section */
+
+#about-section {
+    margin-top: 8em;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+}
+
+.consultant-img {
+    margin-right: 2em;
+}
+
+.about-head h2 {
+    font-size: 2.1rem;
+    color: #030303;
+}
+
+.consultant-paragraph p {
+    color: #7A746E;
+    font-size: 1.2rem;
+    margin: 1.4em 0;
+}
+
+/* work section */
+
+#work-section {
+    text-align: center;
+    margin-top: 8em;
+}
+
+.work-head {
+    margin-bottom: 3em;
+}
+
+.work-head h3 {
+    font-size: 2rem;
+}
+
+/* booking section */
+
+#booking-section {
+    margin-top: 10em;
+}
+
+.booking-section {
+    background-color: #030303;
+    color: #FFF7F0;
+    padding: 5em 4em;
+    border-radius: 1em;
+}
+
+.booking-head h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.book-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-text {
+    width: 60%;
+}
+
+.book-text p {
+    font-size: 1.2rem;
+}
+
+.book-button {
+    width: 25%;
+}
+
+/* footer section */
+
+footer {
+    margin: 4em 0;
+}
